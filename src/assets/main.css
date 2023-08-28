@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    @apply text-white;
+    @apply font-bold;
+}
+
+a:hover {
+    @apply underline;
+}
+
+p {
+    @apply mb-6;
+}
+
+code {
+    @apply mb-6;
+}
+
+@layer base {
+    h1 {
+        @apply text-4xl;
+        @apply font-bold;
+        @apply mb-6;
+    }
+
+    h2 {
+        @apply text-2xl;
+        @apply font-bold;
+        @apply mb-6;
+    }
+}

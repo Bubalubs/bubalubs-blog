@@ -1,20 +1,13 @@
 <script setup>
-    import { RouterLink, RouterView } from 'vue-router'
-
-    import hljs from 'highlight.js/lib/core';
-    import 'highlight.js/styles/github.css';
-    import javascript from 'highlight.js/lib/languages/javascript';
-
-    hljs.registerLanguage('javascript', javascript);
+    import { RouterLink, RouterView } from 'vue-router';
 </script>
 
 <template>
-    <header>
-        <nav>
-            <RouterLink to="/">Home</RouterLink>
-            <RouterLink to="/stripe-3dsecure-2-checkout-using-setup-intent">Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js</RouterLink>
-        </nav>
-    </header>
+    <div class="container mx-auto">
+        <header class="p-12 pb-0">
+            <RouterLink to="/" class="mb-12 text-2xl">Bubalubs</RouterLink>
+        </header>
 
-    <RouterView />
+        <RouterView class="p-12" />
+    </div>
 </template>

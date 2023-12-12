@@ -15,4 +15,4 @@ $data['off_session'] = true;
 $data['confirm'] = true;
 
 return PaymentIntent::create($data);
-`;
+`

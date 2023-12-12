@@ -10,4 +10,4 @@ Subscription::create([
         ]
     ],
 ]);
-`;
+`

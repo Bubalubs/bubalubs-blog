@@ -1,3 +1,3 @@
 export default `\
 vagrant provision
-`;
+`

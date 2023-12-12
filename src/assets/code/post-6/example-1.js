@@ -6,4 +6,4 @@ One or more errors occurred.
 
 $ npm install sqlite3 --save
 Cannot find module 'sqlite3'
-`;
+`

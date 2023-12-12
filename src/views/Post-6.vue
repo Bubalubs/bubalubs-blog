@@ -1,12 +1,12 @@
 <script setup>
 // Code Examples
-import example1 from '../assets/code/post-6/example-1'
-import example2 from '../assets/code/post-6/example-2'
-import example3 from '../assets/code/post-6/example-3'
-import example4 from '../assets/code/post-6/example-4'
+import example1 from '../assets/code/post-6/example-1';
+import example2 from '../assets/code/post-6/example-2';
+import example3 from '../assets/code/post-6/example-3';
+import example4 from '../assets/code/post-6/example-4';
 
 // SEO
-import { useHead } from '@unhead/vue'
+import { useHead } from '@unhead/vue';
 
 useHead({
     title: 'Fixing "Cannot find module \'sqlite3\'" error when installing Ghost v4 locally',
@@ -14,16 +14,16 @@ useHead({
         {
             name: 'description',
             content:
-                'How to Fix "Cannot find module \'sqlite3\'" error when installing Ghost v4 locally'
-        }
+                'How to Fix "Cannot find module \'sqlite3\'" error when installing Ghost v4 locally',
+        },
     ],
     link: [
         {
             rel: 'canonical',
-            href: 'https://bubalubs.io/error-when-installing-ghost-v4-locally'
-        }
-    ]
-})
+            href: 'https://bubalubs.io/error-when-installing-ghost-v4-locally',
+        },
+    ],
+});
 </script>
 
 <template>

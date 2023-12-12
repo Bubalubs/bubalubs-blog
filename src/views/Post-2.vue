@@ -1,15 +1,15 @@
 <script setup>
 // Code Examples
-import example1 from '../assets/code/post-2/example-1'
-import example2 from '../assets/code/post-2/example-2'
-import example3 from '../assets/code/post-2/example-3'
-import example4 from '../assets/code/post-2/example-4'
-import example5 from '../assets/code/post-2/example-5'
-import example6 from '../assets/code/post-2/example-6'
-import example7 from '../assets/code/post-2/example-7'
+import example1 from '../assets/code/post-2/example-1';
+import example2 from '../assets/code/post-2/example-2';
+import example3 from '../assets/code/post-2/example-3';
+import example4 from '../assets/code/post-2/example-4';
+import example5 from '../assets/code/post-2/example-5';
+import example6 from '../assets/code/post-2/example-6';
+import example7 from '../assets/code/post-2/example-7';
 
 // SEO
-import { useHead } from '@unhead/vue'
+import { useHead } from '@unhead/vue';
 
 useHead({
     title: 'Fix LetsEncrypt to work without Laravel Forge on previously provisioned server',
@@ -17,16 +17,16 @@ useHead({
         {
             name: 'description',
             content:
-                'How to Fix LetsEncrypt to work without Laravel Forge on previously provisioned server'
-        }
+                'How to Fix LetsEncrypt to work without Laravel Forge on previously provisioned server',
+        },
     ],
     link: [
         {
             rel: 'canonical',
-            href: 'https://bubalubs.io/fixing-letsencrypt-to-work-without-laravel-forge-on-previously-provisioned-server'
-        }
-    ]
-})
+            href: 'https://bubalubs.io/fixing-letsencrypt-to-work-without-laravel-forge-on-previously-provisioned-server',
+        },
+    ],
+});
 </script>
 
 <template>

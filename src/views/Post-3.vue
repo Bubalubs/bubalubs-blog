@@ -1,10 +1,10 @@
 <script setup>
 // Code Examples
-import example1 from '../assets/code/post-3/example-1'
-import example2 from '../assets/code/post-3/example-2'
+import example1 from '../assets/code/post-3/example-1';
+import example2 from '../assets/code/post-3/example-2';
 
 // SEO
-import { useHead } from '@unhead/vue'
+import { useHead } from '@unhead/vue';
 
 useHead({
     title: 'Fix MySQL Databases no longer being created after Laravel Homestead has been updated',
@@ -12,16 +12,16 @@ useHead({
         {
             name: 'description',
             content:
-                'How to Fix MySQL Databases no longer being created after Laravel Homestead has been updated'
-        }
+                'How to Fix MySQL Databases no longer being created after Laravel Homestead has been updated',
+        },
     ],
     link: [
         {
             rel: 'canonical',
-            href: 'https://bubalubs.io/updating-homestead'
-        }
-    ]
-})
+            href: 'https://bubalubs.io/updating-homestead',
+        },
+    ],
+});
 </script>
 
 <template>

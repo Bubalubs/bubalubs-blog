@@ -14,4 +14,4 @@ stripe.confirmCardSetup(
         // Send setupIntent.payment_method to your server
     }
 });
-`
+`;

@@ -1,6 +1,6 @@
 <script setup>
 // SEO
-import { useHead } from '@unhead/vue'
+import { useHead } from '@unhead/vue';
 
 useHead({
     title: 'Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js',
@@ -8,20 +8,20 @@ useHead({
         {
             name: 'description',
             content:
-                'A guide to using Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js'
-        }
+                'A guide to using Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js',
+        },
     ],
     link: [
         {
             rel: 'canonical',
-            href: 'https://bubalubs.io/stripe-3dsecure-2-checkout-using-setup-intent'
-        }
-    ]
-})
+            href: 'https://bubalubs.io/stripe-3dsecure-2-checkout-using-setup-intent',
+        },
+    ],
+});
 </script>
 
 <template>
-    <nav class="flex flex-col p-12">
+    <nav class="flex flex-col p-12 lg:text-center">
         <RouterLink class="mb-6" to="/error-when-installing-ghost-v4-locally"
             >Fixing "Cannot find module 'sqlite3'" error when installing Ghost v4
             locally</RouterLink

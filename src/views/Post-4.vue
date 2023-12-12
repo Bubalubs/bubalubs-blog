@@ -1,10 +1,10 @@
 <script setup>
 // Code Examples
-import example1 from '../assets/code/post-4/example-1'
-import example2 from '../assets/code/post-4/example-2'
+import example1 from '../assets/code/post-4/example-1';
+import example2 from '../assets/code/post-4/example-2';
 
 // SEO
-import { useHead } from '@unhead/vue'
+import { useHead } from '@unhead/vue';
 
 useHead({
     title: "Fix 'TypeError: getProcessedPlugins is not a function' error after updating Tailwind to 2.0",
@@ -12,16 +12,16 @@ useHead({
         {
             name: 'description',
             content:
-                "How to Fix 'TypeError: getProcessedPlugins is not a function' error after updating Tailwind to 2.0"
-        }
+                "How to Fix 'TypeError: getProcessedPlugins is not a function' error after updating Tailwind to 2.0",
+        },
     ],
     link: [
         {
             rel: 'canonical',
-            href: 'https://bubalubs.io/updating-tailwind-to-v2-0'
-        }
-    ]
-})
+            href: 'https://bubalubs.io/updating-tailwind-to-v2-0',
+        },
+    ],
+});
 </script>
 
 <template>

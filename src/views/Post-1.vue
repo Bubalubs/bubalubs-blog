@@ -1,13 +1,13 @@
 <script setup>
 // Code Examples
-import example1 from '../assets/code/post-1/example-1'
-import example2 from '../assets/code/post-1/example-2'
-import example3 from '../assets/code/post-1/example-3'
-import example4 from '../assets/code/post-1/example-4'
-import example5 from '../assets/code/post-1/example-5'
+import example1 from '../assets/code/post-1/example-1';
+import example2 from '../assets/code/post-1/example-2';
+import example3 from '../assets/code/post-1/example-3';
+import example4 from '../assets/code/post-1/example-4';
+import example5 from '../assets/code/post-1/example-5';
 
 // SEO
-import { useHead } from '@unhead/vue'
+import { useHead } from '@unhead/vue';
 
 useHead({
     title: 'Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js',
@@ -15,23 +15,25 @@ useHead({
         {
             name: 'description',
             content:
-                'A guide to using Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js'
-        }
+                'A guide to using Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js',
+        },
     ],
     link: [
         {
             rel: 'canonical',
-            href: 'https://bubalubs.io/stripe-3dsecure-2-checkout-using-setup-intent'
-        }
-    ]
-})
+            href: 'https://bubalubs.io/stripe-3dsecure-2-checkout-using-setup-intent',
+        },
+    ],
+});
 </script>
 
 <template>
     <main>
-        <h1>Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js</h1>
+        <h1 class="text-center">
+            Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js
+        </h1>
 
-        <p class="mb-12">April 23, 2020</p>
+        <p class="mb-12 text-center text-gray-400">April 23, 2020</p>
 
         <h2>SetupIntent vs PaymentIntent</h2>
 

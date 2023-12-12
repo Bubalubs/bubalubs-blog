@@ -9,4 +9,4 @@ ERROR in ./resources/sass/app.scss (./node_modules/css-loader??ref--5-2!./node_m
 Module build failed (from ./node_modules/postcss-loader/src/index.js):
 TypeError: Object.entries(...).flatMap is not a function
 ...
-`
+`;

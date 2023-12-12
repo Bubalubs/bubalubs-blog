@@ -8,4 +8,4 @@ features:
     - mariadb: false
     - ohmyzsh: false
     - webdriver: false
-`
+`;

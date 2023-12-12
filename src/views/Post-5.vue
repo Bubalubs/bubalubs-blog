@@ -28,9 +28,11 @@ useHead({
 
 <template>
     <main>
-        <h1>Fix PHP File Sessions causing storage full errors on Linux because of maxed inodes</h1>
+        <h1 class="text-center lg:px-64">
+            Fix PHP File Sessions causing storage full errors on Linux because of maxed inodes
+        </h1>
 
-        <p class="mb-12">March 14, 2021</p>
+        <p class="mb-12 text-center text-gray-400">March 14, 2021</p>
 
         <p>
             I was getting lot's of storage full errors on a web server which was causing Redis and

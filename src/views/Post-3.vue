@@ -26,11 +26,11 @@ useHead({
 
 <template>
     <main>
-        <h1>
+        <h1 class="text-center lg:px-64">
             Fix MySQL Databases no longer being created after Laravel Homestead has been updated
         </h1>
 
-        <p class="mb-12">November 19, 2020</p>
+        <p class="mb-12 text-center text-gray-400">November 19, 2020</p>
 
         <p>
             If your MySQL databases are no longer being created when provisioning your updated

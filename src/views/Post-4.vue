@@ -26,12 +26,12 @@ useHead({
 
 <template>
     <main>
-        <h1>
+        <h1 class="text-center lg:px-64">
             Fix 'TypeError: getProcessedPlugins is not a function' error after updating Tailwind to
             2.0
         </h1>
 
-        <p class="mb-12">November 25, 2020</p>
+        <p class="mb-12 text-center text-gray-400">November 25, 2020</p>
 
         <p>After updating Tailwind to version 2.0 I was getting the following error:</p>
 

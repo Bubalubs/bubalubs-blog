@@ -5,10 +5,12 @@
 a {
     @apply text-white;
     @apply font-bold;
+    @apply transition-all;
+    @apply duration-300;
 }
 
 a:hover {
-    @apply underline;
+    @apply text-pink-500;
 }
 
 p {

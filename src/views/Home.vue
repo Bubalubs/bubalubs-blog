@@ -8,15 +8,15 @@ useHead({
         {
             name: 'description',
             content:
-                'A guide to using Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js',
-        },
+                'A guide to using Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js'
+        }
     ],
     link: [
         {
             rel: 'canonical',
-            href: 'https://bubalubs.io/stripe-3dsecure-2-checkout-using-setup-intent',
-        },
-    ],
+            href: 'https://bubalubs.io/stripe-3dsecure-2-checkout-using-setup-intent'
+        }
+    ]
 });
 </script>
 

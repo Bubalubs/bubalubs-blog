@@ -24,7 +24,7 @@ import { RouterLink, RouterView } from 'vue-router';
         <RouterView class="p-12" />
 
         <footer class="p-12 pt-0 text-gray-400 text-center">
-            &copy; {{ new Date().getFullYear() }}
+            Bubalubs &copy; {{ new Date().getFullYear() }}
         </footer>
     </div>
 </template>

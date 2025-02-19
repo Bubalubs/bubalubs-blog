@@ -27,8 +27,8 @@ useHead({
 </script>
 
 <template>
-    <main>
-        <h1 class="text-center lg:px-64">
+    <main class="mx-4 lg:w-1/2 lg:mx-auto text-left">
+        <h1 class="text-center">
             Fixing "Cannot find module 'sqlite3'" error when installing Ghost v4 locally
         </h1>
 

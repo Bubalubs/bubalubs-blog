@@ -28,8 +28,8 @@ useHead({
 </script>
 
 <template>
-    <main>
-        <h1 class="text-center lg:px-64">
+    <main class="mx-4 lg:w-1/2 lg:mx-auto text-left">
+        <h1 class="text-center">
             Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js
         </h1>
 

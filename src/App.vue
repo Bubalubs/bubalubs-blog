@@ -25,7 +25,7 @@ import { RouterLink, RouterView } from 'vue-router';
 
                 <RouterView />
 
-                <footer class="text-zinc-600 text-xs dark:text-zinc-400">
+                <footer class="text-slate-600 text-xs dark:text-slate-400">
                     <a href="/privacy" title="Privacy Policy">Privacy</a>
                     &middot;
                     Bubalubs &copy; {{ new Date().getFullYear() }}

@@ -33,7 +33,7 @@
 }
 
 a {
-    @apply text-zinc-900;
+    @apply text-slate-900;
     @apply font-bold;
     @apply transition-all;
     @apply duration-300;
@@ -52,22 +52,29 @@ code {
     @apply mb-6;
 }
 
+.hljs {
+    @apply text-left;
+    @apply text-sm;
+    @apply !bg-slate-900;
+    @apply rounded-lg;
+}
+
 @layer base {
     h1 {
         @apply text-4xl;
         @apply font-bold;
-        @apply mb-6;
+        @apply mb-1;
     }
 
     h2 {
         @apply text-2xl;
         @apply font-bold;
-        @apply mb-4;
+        @apply mb-1;
     }
 
     h3 {
         @apply text-xl;
         @apply font-bold;
-        @apply mb-2;
+        @apply mb-1;
     }
 }

@@ -21,8 +21,8 @@ useHead({
 </script>
 
 <template>
-    <main>
-        <h1 class="text-center lg:px-64">Privacy Policy</h1>
+    <main class="mx-4 lg:w-1/2 lg:mx-auto text-left">
+        <h1 class="text-center">Privacy Policy</h1>
 
         <p class="mb-12 text-center text-pink-400 text-sm">
             Last updated: <strong>19th February 2025</strong>

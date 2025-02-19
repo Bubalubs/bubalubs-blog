@@ -38,7 +38,9 @@ useHead({
 
     <h2 class="text-center">Blog</h2>
 
-    <nav class="flex flex-col px-4 text-left lg:text-center">
+    <nav
+        class="flex flex-col px-6 text-left w-1/2 mx-auto bg-slate-900 bg-opacity-80 rounded-lg pt-6"
+    >
         <RouterLink class="mb-6" to="/error-when-installing-ghost-v4-locally"
             >Fixing "Cannot find module 'sqlite3'" error when installing Ghost v4
             locally</RouterLink

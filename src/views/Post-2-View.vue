@@ -12,7 +12,7 @@ import example7 from '../assets/code/post-2/example-7';
 import { useHead } from '@unhead/vue';
 
 useHead({
-    title: 'Fix LetsEncrypt to work without Laravel Forge on previously provisioned server',
+    title: 'Fix LetsEncrypt to work without Laravel Forge on previously provisioned server - Bubalubs Blog',
     meta: [
         {
             name: 'description',

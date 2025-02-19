@@ -10,7 +10,7 @@ import example5 from '../assets/code/post-1/example-5';
 import { useHead } from '@unhead/vue';
 
 useHead({
-    title: 'Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js',
+    title: 'Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js - Bubalubs Blog',
     meta: [
         {
             name: 'description',

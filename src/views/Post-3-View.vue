@@ -7,7 +7,7 @@ import example2 from '../assets/code/post-3/example-2';
 import { useHead } from '@unhead/vue';
 
 useHead({
-    title: 'Fix MySQL Databases no longer being created after Laravel Homestead has been updated',
+    title: 'Fix MySQL Databases no longer being created after Laravel Homestead has been updated - Bubalubs Blog',
     meta: [
         {
             name: 'description',

@@ -9,7 +9,7 @@ import example4 from '../assets/code/post-6/example-4';
 import { useHead } from '@unhead/vue';
 
 useHead({
-    title: 'Fixing "Cannot find module \'sqlite3\'" error when installing Ghost v4 locally',
+    title: 'Fixing "Cannot find module \'sqlite3\'" error when installing Ghost v4 locally - Bubalubs Blog',
     meta: [
         {
             name: 'description',

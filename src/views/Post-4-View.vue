@@ -7,7 +7,7 @@ import example2 from '../assets/code/post-4/example-2';
 import { useHead } from '@unhead/vue';
 
 useHead({
-    title: "Fix 'TypeError: getProcessedPlugins is not a function' error after updating Tailwind to 2.0",
+    title: "Fix 'TypeError: getProcessedPlugins is not a function' error after updating Tailwind to 2.0 - Bubalubs Blog",
     meta: [
         {
             name: 'description',

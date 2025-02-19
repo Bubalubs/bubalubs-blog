@@ -9,7 +9,7 @@ import example4 from '../assets/code/post-5/example-4';
 import { useHead } from '@unhead/vue';
 
 useHead({
-    title: 'Fix PHP File Sessions causing storage full errors on Linux because of maxed inodes',
+    title: 'Fix PHP File Sessions causing storage full errors on Linux because of maxed inodes - Bubalubs Blog',
     meta: [
         {
             name: 'description',

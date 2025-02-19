@@ -1,5 +1,20 @@
 <script setup>
+import { ref, onMounted } from 'vue';
 import { RouterLink, RouterView } from 'vue-router';
+
+const showScrollToTop = ref(false);
+
+const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+const checkScroll = () => {
+    showScrollToTop.value = window.scrollY > 100;
+};
+
+onMounted(() => {
+    window.addEventListener('scroll', checkScroll);
+});
 </script>
 
 <template>

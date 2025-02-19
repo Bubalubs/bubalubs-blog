@@ -46,8 +46,6 @@ onMounted(() => {
                     />
 
                     <div class="py-4 flex gap-6 md:gap-12 justify-center text-sm">
-                        <p class="text-slate-500 dark:text-slate-600 pb-0">v2.6.6</p>
-
                         <div class="flex gap-2">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

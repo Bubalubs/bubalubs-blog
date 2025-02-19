@@ -46,11 +46,15 @@ useHead({
                 >Fixing "Cannot find module 'sqlite3'" error when installing Ghost v4
                 locally</RouterLink
             >
-            <RouterLink class="border-b border-slate-600 border-dashed" to="/fix-php-file-sessions-causing"
+            <RouterLink
+                class="border-b border-slate-600 border-dashed"
+                to="/fix-php-file-sessions-causing"
                 >Fix PHP File Sessions causing storage full errors on Linux because of maxed
                 inodes</RouterLink
             >
-            <RouterLink class="border-b border-slate-600 border-dashed" to="/updating-tailwind-to-v2-0"
+            <RouterLink
+                class="border-b border-slate-600 border-dashed"
+                to="/updating-tailwind-to-v2-0"
                 >Fix 'TypeError: getProcessedPlugins is not a function' error after updating
                 Tailwind to 2.0</RouterLink
             >

@@ -25,7 +25,7 @@ useHead({
         <h1 class="text-center">Privacy Policy</h1>
 
         <p class="mb-12 text-center text-pink-400 text-sm">
-            Last updated: <strong>19th February 2025</strong>
+            Updated: 19th February 2025
         </p>
 
         <p>

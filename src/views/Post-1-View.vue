@@ -33,7 +33,7 @@ useHead({
             Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js
         </h1>
 
-        <p class="mb-12 text-center text-gray-400">April 23, 2020</p>
+        <p class="mb-12 text-center text-pink-400 text-sm">April 23, 2020</p>
 
         <h2>SetupIntent vs PaymentIntent</h2>
 

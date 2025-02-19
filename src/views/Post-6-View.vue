@@ -32,7 +32,7 @@ useHead({
             Fixing "Cannot find module 'sqlite3'" error when installing Ghost v4 locally
         </h1>
 
-        <p class="mb-12 text-center text-gray-400">March 27, 2021</p>
+        <p class="mb-12 text-center text-pink-400 text-sm">March 27, 2021</p>
 
         <p>I was getting the following error when installing Ghost v4 locally on Windows 10:</p>
 

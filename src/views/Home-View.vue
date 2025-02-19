@@ -23,22 +23,22 @@ useHead({
 <template>
     <h2 class="text-center">Projects</h2>
 
-    <div class="flex flex-wrap justify-center text-center mb-8">
+    <div class="flex flex-wrap justify-center text-center">
         <a
             href="https://audit.bubalubs.io"
             title="Web Auditor"
-            class="bg-pink-800 hover:bg-pink-600 hover:text-white p-4 m-4 rounded-lg w-64"
+            class="bg-pink-700 hover:bg-pink-600 hover:text-white p-4 m-4 rounded-lg w-64 text-white"
         >
             <h3>Web Auditor</h3>
-            <p class="mb-0">
-                Advanced web auditing tool for SEO, security, performance, and accessibility
+            <p class="mb-0 text-sm">
+                Advanced auditing tool focused on SEO, security, performance, and accessibility.
             </p>
         </a>
     </div>
 
     <h2 class="text-center">Blog</h2>
 
-    <nav class="flex flex-col p-4 lg:text-center">
+    <nav class="flex flex-col px-4 text-left lg:text-center">
         <RouterLink class="mb-6" to="/error-when-installing-ghost-v4-locally"
             >Fixing "Cannot find module 'sqlite3'" error when installing Ghost v4
             locally</RouterLink

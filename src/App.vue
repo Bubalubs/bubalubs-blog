@@ -50,9 +50,9 @@ import { RouterLink, RouterView } from 'vue-router';
                             <p class="text-slate-500 dark:text-slate-600">Bubalubs &copy; 2024</p>
                         </div>
                         <a
-                            href="https://bubalubs.io"
+                            href="https://audit.bubalubs.io"
                             class="text-slate-800 hover:text-slate-950 dark:text-slate-400 dark:hover:text-white"
-                            >Blog</a
+                            >Auditor</a
                         >
                     </div>
                 </footer>

@@ -39,38 +39,40 @@ useHead({
 
         <h2 class="text-center mt-12">Blog</h2>
 
-        <nav class="flex flex-col p-6 text-left bg-slate-900 rounded-lg mt-6 gap-4">
+        <nav
+            class="flex flex-col p-6 text-left bg-slate-900 rounded-lg mt-6 gap-4 font-mono text-sm xl:w-2/3 mx-auto"
+        >
             <RouterLink
-                class="border-b border-slate-600 border-dashed"
+                class="border-b border-slate-600 border-dashed pb-2"
                 to="/error-when-installing-ghost-v4-locally"
                 >Fixing "Cannot find module 'sqlite3'" error when installing Ghost v4
                 locally</RouterLink
             >
             <RouterLink
-                class="border-b border-slate-600 border-dashed"
+                class="border-b border-slate-600 border-dashed pb-2"
                 to="/fix-php-file-sessions-causing"
                 >Fix PHP File Sessions causing storage full errors on Linux because of maxed
                 inodes</RouterLink
             >
             <RouterLink
-                class="border-b border-slate-600 border-dashed"
+                class="border-b border-slate-600 border-dashed pb-2"
                 to="/updating-tailwind-to-v2-0"
                 >Fix 'TypeError: getProcessedPlugins is not a function' error after updating
                 Tailwind to 2.0</RouterLink
             >
-            <RouterLink class="border-b border-slate-600 border-dashed" to="/updating-homestead"
+            <RouterLink
+                class="border-b border-slate-600 border-dashed pb-2"
+                to="/updating-homestead"
                 >Fix MySQL Databases no longer being created after Laravel Homestead has been
                 updated</RouterLink
             >
             <RouterLink
-                class="border-b border-slate-600 border-dashed"
+                class="border-b border-slate-600 border-dashed pb-2"
                 to="/fixing-letsencrypt-to-work-without-laravel-forge-on-previously-provisioned-server"
                 >Fix LetsEncrypt to work without Laravel Forge on previously provisioned
                 server</RouterLink
             >
-            <RouterLink
-                class="border-b border-slate-600 border-dashed"
-                to="/stripe-3dsecure-2-checkout-using-setup-intent"
+            <RouterLink to="/stripe-3dsecure-2-checkout-using-setup-intent"
                 >Stripe 3DSecure Checkout using SetupIntent with Laravel and Vue.js</RouterLink
             >
         </nav>

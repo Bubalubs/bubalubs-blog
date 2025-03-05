@@ -35,7 +35,7 @@ useHead({
             Fix LetsEncrypt to work without Laravel Forge on previously provisioned server
         </h1>
 
-        <p class="mb-12 text-center text-pink-400 text-sm">April 27, 2020</p>
+        <p class="mb-12 text-center text-slate-800 dark:text-pink-400 text-sm">April 27, 2020</p>
 
         <p>
             If you provisioned a server using Laravel forge and are no longer relying on that for

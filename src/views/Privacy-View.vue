@@ -24,7 +24,7 @@ useHead({
     <main class="mx-4 lg:w-1/2 lg:mx-auto text-left">
         <h1 class="text-center">Privacy Policy</h1>
 
-        <p class="mb-12 text-center text-pink-400 text-sm">
+        <p class="mb-12 text-center text-slate-800 dark:text-pink-400 text-sm">
             Updated: 19th February 2025
         </p>
 

@@ -32,7 +32,7 @@ useHead({
             Fix PHP File Sessions causing storage full errors on Linux because of maxed inodes
         </h1>
 
-        <p class="mb-12 text-center text-pink-400 text-sm">March 14, 2021</p>
+        <p class="mb-12 text-center text-slate-800 dark:text-pink-400 text-sm">March 14, 2021</p>
 
         <p>
             I was getting lot's of storage full errors on a web server which was causing Redis and

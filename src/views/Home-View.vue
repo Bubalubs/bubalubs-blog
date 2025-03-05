@@ -40,7 +40,7 @@ useHead({
         <h2 class="text-center mt-12">Blog</h2>
 
         <nav
-            class="flex flex-col p-6 text-left bg-slate-900 rounded-lg mt-6 gap-4 font-mono text-sm xl:w-2/3 mx-auto"
+            class="flex flex-col p-6 text-left bg-slate-100 dark:bg-slate-900 rounded-lg mt-6 gap-4 font-mono text-sm xl:w-2/3 mx-auto"
         >
             <RouterLink
                 class="border-b border-slate-600 border-dashed pb-2"

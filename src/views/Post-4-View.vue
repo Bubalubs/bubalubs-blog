@@ -31,7 +31,7 @@ useHead({
             2.0
         </h1>
 
-        <p class="mb-12 text-center text-slate-800 dark:text-pink-400 text-sm">November 25, 2020</p>
+        <p class="mb-12 text-center text-pink-400 text-sm">November 25, 2020</p>
 
         <p>After updating Tailwind to version 2.0 I was getting the following error:</p>
 

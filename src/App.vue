@@ -52,7 +52,7 @@ onMounted(() => {
                                 width="512"
                                 height="512"
                                 viewBox="0 0 512.001 512.001"
-                                class="h-4 w-4 inline-block fill-slate-400 dark:fill-slate-600 hover:fill-pink-500"
+                                class="h-4 w-4 inline-block fill-slate-600 dark:fill-slate-400 hover:fill-pink-500"
                             >
                                 <path
                                     class="transition-all duration-300"
@@ -60,11 +60,11 @@ onMounted(() => {
                                 />
                             </svg>
 
-                            <p class="text-slate-500 dark:text-slate-400">Bubalubs &copy; 2025</p>
+                            <p class="text-slate-600 dark:text-slate-400">Bubalubs &copy; 2025</p>
                         </div>
                         <a
                             href="https://audit.bubalubs.io"
-                            class="text-slate-800 hover:text-slate-950 dark:text-slate-400 dark:hover:text-white"
+                            class="text-slate-800 hover:text-slate-950 dark:text-slate-200 dark:hover:text-white"
                             >Auditor</a
                         >
                     </div>

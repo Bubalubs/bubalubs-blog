@@ -60,7 +60,7 @@ onMounted(() => {
                                 />
                             </svg>
 
-                            <p class="text-slate-500 dark:text-slate-600">Bubalubs &copy; 2024</p>
+                            <p class="text-slate-500 dark:text-slate-400">Bubalubs &copy; 2025</p>
                         </div>
                         <a
                             href="https://audit.bubalubs.io"
